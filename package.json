@@ -1,0 +1,16 @@
+{
+  "name": "gpstracker",
+  "version": "1.0.0",
+  "description": "GPS Tracker Server for TK105, with forwarding to second Server, with Telegram Bot",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-localstorage": "^2.1.5",
+    "node-telegram-bot-api": "^0.40.0",
+    "sqlite3": "^4.1.1"
+  }
+}
