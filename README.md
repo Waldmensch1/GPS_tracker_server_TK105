@@ -14,6 +14,9 @@ To receive messages from your tracker:
 
 To forward the tracker messages to another server
 - create an account e.g. on https://gps.my-gps.org/ and register the EMEI of your tracker
-- enter the IP and port of this provider
+- enter the IP and port of this provider in app.js
 - all messages received by your server will automatically and unchanged to this server additionally
+
+Running the Server
+- Run in your folder: node app.js
 
